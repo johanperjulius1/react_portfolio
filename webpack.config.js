@@ -1,6 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
-const UglifyJSPlugin = require("Uglifyjs-webpack-plugin");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -34,7 +34,7 @@ module.exports = {
   },
   optimization: {
     minimizer: [
-      new UglifyJSPlugin({
+      new UglifyJsPlugin({
         uglifyOptions: {
           mangle: {
             keep_fnames: true,
