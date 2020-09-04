@@ -30,7 +30,7 @@
       cy.get("#projects-tab").click();
     });
 
-    it("displays My Projects header", => {
+    it("displays My Projects header", () => {
       cy.get("#projects-header").should("contain", "My Projects");
     });
 
@@ -38,7 +38,7 @@
       cy.url().should("contain", "projects");
     });
 
-    it("does not display About Me header", (){
+    it("does not display About Me header", () => {
       cy.get("#about-header").should("not.exist");
     });
 

@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
 
       </div>
-      <p id="footer">Made with React 16.3.1.</p>
+      <p id="footer">Made with React 16.13.1.</p>
     </footer>
   );
 };

@@ -23,7 +23,7 @@ const Header = () => {
         activeStyle={{ fontWeight:"bold" }}
         to="/projects"
       >
-        projects
+        Projects
         </NavLink>   
        </div> 
       </div>
