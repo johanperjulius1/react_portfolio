@@ -49,8 +49,8 @@
 
   describe("back to My Portfolio/Hello tab and it", () => {
     beforeEach(() => {
-      cy.get().click();
-      cy.get().click();
+      cy.get("#about-tab").click();
+      cy.get("#header").click();
     });
 
     it("displays Hello World", () => {
