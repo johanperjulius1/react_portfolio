@@ -1,24 +1,26 @@
+import axios from "axios";
 import React, { Component } from "react";
+
 
 class Projects extends Component {
   state = {
-    projects: [
-      {
-        id: 1,
-        name: "My First Website",
-      },
-      {
-        id: 2,
-        name: "FizzBuzz",
-      },
-    ],
+    projects: [],
   };
+
+  componentDidMount(){
+    axios.get('./src/data/projects.json')
+      .then(response => {
+        this.setState({
+          projects: response.data
+        })
+      })
+  }
 
   render() {
     const projects = this.state.projects;
     let projectList;
 
-    if (projects.length > 0 {
+    if (projects.length > 0) {
       projectList = projects.map((project) => {
         return (
           <div id ={"project-" + project.id} key={project.id}>
@@ -29,7 +31,7 @@ class Projects extends Component {
     }
 
 
-    return()
+    return(
     <div className="ui main container">
       <h1 id="projects-header" className="ui header">
         My Projects
@@ -38,5 +40,5 @@ class Projects extends Component {
     </div>
     );
   }
-
+}
 export default Projects;
