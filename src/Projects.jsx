@@ -18,7 +18,7 @@ class Projects extends Component {
           projects: response.data,
         });
       });
-  }
+  };
 
   render() {
     const projects = this.state.projects;

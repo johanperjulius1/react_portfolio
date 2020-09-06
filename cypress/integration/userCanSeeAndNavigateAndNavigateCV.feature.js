@@ -5,7 +5,7 @@ describe ('User can visit the website', () => {
 
     describe('To my CV', () => {
       it('user can visit the CV tab', () => {
-        cy.get('#CV-tab').click();
+        cy.get('#cv-tab').click();
           });
       });
 
