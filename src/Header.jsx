@@ -30,7 +30,6 @@ const Header = () => {
         className="ui item"
         activeStyle={{ fontWeight: "bold" }}
         to="/cv"
-
       >
         CV
         </NavLink>
