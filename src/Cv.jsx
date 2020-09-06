@@ -9,7 +9,7 @@ const Cv = () => {
           <UndrawDesignerLife primaryColor='#12283a' height='200px'/>
         </div>
       <div class="column">  
-          <h1 id="about-header" className="ui header">Cv</h1>
+          <h1 id="cv-header" className="ui header">Cv</h1>
           <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Suscipit fugiat saepe quis dolorum rerum obcaecati quas corporis omnis,
