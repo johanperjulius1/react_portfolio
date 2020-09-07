@@ -2,16 +2,19 @@
   {
     "id": 1,
     "image":"./src/images/accounting640.png",
-    "name": "Accounting Assistant"
+    "name": "Accounting Assistant",
+    "description": "My first job was as an accounting assistant. I was helping to balance the books."
   },
   {
     "id": 2,
     "image":"./src/images/equity640.jpg",
-    "name":"Equity Research"
+    "name":"Equity Research",
+    "description": "My second job was in Equity research. I was analysing small tech companies."
   },
   {
     "id": 3,
     "image":"./src/images/raketech640.jpeg",
-    "name":"Sales Analyst Team Leader"
+    "name":"Sales Analyst Team Leader",
+    "description": "I was living in Malta, and for a living I was analysing Sales Numbers.."
   }
 ]

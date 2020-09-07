@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "My First Website",
-    "image":"http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "image":"./src/images/firstwebpage640.png",
+    "description": "Not so bad for a first? When I made this, thinking about pizza made me hungry."
   },
   {
     "id": 2,
-    "name": "UI Design",
-    "image":"http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description":"Designing user interfaces is fun. I want to learn more about that..."
+    "name": "FizzBuzz Game",
+    "image":"./src/images/fizzbuzz640.jpg",
+    "description":"I love this game, it is very addictive. Would you like to play with me?"
   },
   {
     "id": 3,
-    "name":"Mobile UX",
-    "image":"http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description":"I like to design for the mobile platform. The challenges to build UI for smartphones is challenging but extremely rewarding." 
+    "name":"Library Challenge",
+    "image":"./src/images/book640.jpg",
+    "description":"I love to read. This library helps me keep track of my books." 
   }
 ]
