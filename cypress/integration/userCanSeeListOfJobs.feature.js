@@ -7,7 +7,7 @@ describe("User can see list of jobs", () => {
   it("displays first experience", () => {
     cy.get("#job-1").within(() => {
       cy.get(".image").should("exist");
-      cy.get(".ui.header").should("contain", "My First Job");
+      cy.get(".ui.header").should("contain", "Accounting Assistant");
       cy.get(".description").should(
         "contain", "first job.");
     });
